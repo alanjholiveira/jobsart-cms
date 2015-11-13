@@ -38,7 +38,7 @@
 
                         {!! Form::open(['route' => 'admin.slideshow.store', 'files' => true, 'method' => 'post', 'data-parsley-validate', 'class' => 'form-horizontal form-label-left']) !!}
 
-                         @include('layouts.admin.slideshow._form')
+                         @include('layouts.admin.modules.slideshow._form')
 
                         <div class="ln_solid"></div>
                         <div class="form-group">

@@ -66,4 +66,4 @@
     {!! $slides->render() !!}
 </div>
 {!! Form::close() !!}
-@include('layouts.admin.slideshow._modal')
+@include('layouts.admin.modules.slideshow._modal')

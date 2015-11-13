@@ -38,7 +38,7 @@
 
                         {!! Form::model($slide, ['route' => ['admin.slideshow.update', $slide->id], 'method' => 'PUT', 'files'=>true, 'class' => 'form-horizontal form-label-left']) !!}
 
-                        @include('layouts.admin.slideshow._form')
+                        @include('layouts.admin.modules.slideshow._form')
 
                         <div class="ln_solid"></div>
                         <div class="form-group">

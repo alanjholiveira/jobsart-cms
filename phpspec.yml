@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: JobsArt
+        psr4_prefix: JobsArt
+        src_path: app
